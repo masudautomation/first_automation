@@ -13,6 +13,7 @@ jobs:
       - name: Beforessh
         run: |
           echo ${{ vars.STUDENT }}
+          echo ${{ vars.IP_ADDRESS }}
           ip addr
   
 
