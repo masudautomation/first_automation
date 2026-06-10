@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Beforessh
         run: |
+          echo ${{ vars.STUDENT }}
           ip addr
   
 
