@@ -1,5 +1,5 @@
 name: SSH Connect_OSTAD
-
+run-name: ${{github.actor}} is running ${{github.action_path}}
 on:
   push:
     branches:
